@@ -10,5 +10,6 @@ public class SymbolsCalc {
         System.out.println("Введите длину забора в сантиметрах: ");
         int fenceLength = sc.nextInt();
         message.isFenceLengthSuitable(fenceLength);
+        sc.close();
     }
 }
